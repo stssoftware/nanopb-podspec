@@ -3,6 +3,8 @@ Pod::Spec.new do |s|
   s.version      = "0.3.8"
   s.summary      = "Protocol buffers with small code size."
 
+  s.ios.deployment_target = '8.0'
+
   s.description  = <<-DESC
                     Nanopb is a plain-C implementation of Google's
                     [Protocol Buffers][pb] data format. It is targeted at
